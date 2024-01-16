@@ -21,11 +21,12 @@ const reposEl = ref(null);
 useInfiniteScroll(
   reposEl,
   async () => {
+    console.log('triggered');
     emit('scrollAction');
   },
   {
     distance: 5,
-    interval: 5000,
+    interval: 2000,
   },
 );
 </script>
