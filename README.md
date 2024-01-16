@@ -1,10 +1,12 @@
-# Vue IS
+# Infinite Scroll (Vue)
 
 Infinite scroll with Vue
 
-![](https://github.com/weiying-chen/vue-is/blob/main/screenshot.png)
+![](https://github.com/weiying-chen/infinite-scroll-vue/blob/main/screenshot.png)
 
-**[Live Demo](https://weiying-chen.github.io/vue-is/)**
+**[Live Demo](https://infinite-scroll-vue-demo.vercel.app/)**
+
+**[React Version](https://github.com/weiying-chen/infinite-scroll-react)**
 
 ## Installation
 
