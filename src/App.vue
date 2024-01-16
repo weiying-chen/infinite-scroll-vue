@@ -7,16 +7,16 @@ import fetchRepos from './api/fetchRepos';
 const username = 'tj';
 const perPage = 10;
 const repos = ref<Repo[]>([]);
-const noMoreRepos = ref(false);
+const moreRepos = ref(true);
 
 async function getRepos() {
-  if (noMoreRepos.value) return;
+  if (!moreRepos.value) return;
 
   try {
     const newRepos = await fetchRepos(username, perPage);
 
     if (newRepos.length === 0) {
-      noMoreRepos.value = true;
+      moreRepos.value = false;
     }
 
     repos.value.push(...newRepos);
