@@ -1,6 +1,6 @@
 # Infinite Scroll (Vue)
 
-Infinite scroll with Vue
+Endless scrolling displaying Github repositories
 
 ![](https://github.com/weiying-chen/infinite-scroll-vue/blob/main/screenshot.png)
 
